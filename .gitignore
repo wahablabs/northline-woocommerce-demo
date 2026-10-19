@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# WordPress core, uploads, DB (never commit)
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/plugins/
+wp-config.php
+*.sqlite
+*.sql
+.ht.sqlite
+node_modules/
+*.log
+.env
